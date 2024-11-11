@@ -29,10 +29,6 @@ The system's development and validation phases will employ the Sign Language MNI
 ### Challenges
 The project confronts significant challenges, including the intricate interpretation of ASL's nuanced gestures and the environmental variability in video data such as variable lighting and background disturbances. The prospective text-to-speech conversion also presents a complex technological hurdle that we aim to address.
 
-## Input/Output Data
-- **Input:** Real-time video data uploaded by users.
-- **Output:** Textual translations displayed on-screen, with an investigational speech output as a potential enhancement.
-
 ## Evaluation Plan
 The system's effectiveness will be rigorously evaluated using precision accuracy metrics against a controlled test set. Additionally, we will engage our target audience in feedback sessions to refine usability and functionality. The optional speech conversion component will undergo a distinct set of evaluations to assess its viability and integration with the primary system.
 
