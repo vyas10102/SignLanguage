@@ -7,7 +7,8 @@
 This blog post was done by Ritwika Das (GWID: G30941802) and Aditi Vyas (GWID: G40802010) under the guidance of Professor Robert Pless for the course Introduction to Computer Vision (CSCI 6527_10).
 
 ## Objective
-The goal of this project is to develop an assistive technology that translates American Sign Language (ASL) into text, with an optional feature to convert this text into speech. This system aims to facilitate communication for individuals who are deaf or hard of hearing and potentially assist those who are visually impaired.
+The primary goal of this project is to develop a sophisticated assistive technology system that translates American Sign Language (ASL) into text. The system will facilitate effective communication for individuals who are deaf or hard of hearing, allowing them to convey messages to those who do not understand sign language. Additionally, as an exploratory objective, we will attempt to implement a feature that converts the translated text into speech. This optional feature aims to further extend the system's utility by making information accessible to individuals who are visually impaired, thus enhancing inclusivity across multiple sensory disabilities. The successful implementation of both components would represent a significant advancement in assistive technologies, bridging communication gaps in everyday interactions, educational settings, healthcare environments, and other areas critical to quality of life and integration.
+
 
 ## Project Description
 ### Inputs and Outputs
