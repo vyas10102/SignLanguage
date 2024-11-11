@@ -7,47 +7,46 @@
 This blog post was done by Ritwika Das (GWID: G30941802) and Aditi Vyas (GWID: G40802010) under the guidance of Professor Robert Pless for the course Introduction to Computer Vision (CSCI 6527_10).
 
 ## Objective
-The primary goal of this project is to develop a sophisticated assistive technology system that translates American Sign Language (ASL) into text. The system will facilitate effective communication for individuals who are deaf or hard of hearing, allowing them to convey messages to those who do not understand sign language. Additionally, as an exploratory objective, we will attempt to implement a feature that converts the translated text into speech. This optional feature aims to further extend the system's utility by making information accessible to individuals who are visually impaired, thus enhancing inclusivity across multiple sensory disabilities. The successful implementation of both components would represent a significant advancement in assistive technologies, bridging communication gaps in everyday interactions, educational settings, healthcare environments, and other areas critical to quality of life and integration.
-
+The overarching goal of this project is to develop an innovative assistive technology that translates American Sign Language (ASL) into text. This transformative system aims to bridge communication gaps for individuals who are deaf or hard of hearing, enabling seamless interaction with those unfamiliar with ASL. Moreover, we are aspiring to incorporate an advanced feature that converts the text output into speech. This ambitious extension seeks to make communications accessible not only to the hearing impaired but also to individuals who are visually impaired, thereby fostering greater inclusivity. If successful, this dual functionality will significantly enhance daily communications across diverse environments such as educational institutions, healthcare facilities, and public services, fundamentally improving accessibility and integration for those with sensory disabilities.
 
 ## Project Description
+
 ### Inputs and Outputs
-- **Inputs:** User-uploaded videos via the system interface.
-- **Outputs:** Primary output will be text displayed on-screen. An optional output, synthesized speech, will be explored based on feasibility and implementation success.
+- **Inputs:** The system will accept user-uploaded videos through a dedicated interface.
+- **Outputs:** The primary output will be immediate text displayed on-screen. An exploratory secondary output, synthesized speech, will be pursued based on technical feasibility and effectiveness.
 
 ### Target Audience
-This system is designed for individuals who are deaf or hard of hearing. The optional speech output feature also aims to serve individuals who are visually impaired, along with educators, healthcare providers, and public service workers who interact with these communities.
+This system is meticulously designed for individuals who are deaf or hard of hearing. The potential speech output feature is additionally intended to serve individuals who are visually impaired, along with educators, healthcare providers, and public service workers who interact regularly with these communities.
 
 ## Proposed Approach
+
 ### High-Level Approach
-We plan to use computer vision and machine learning techniques, particularly convolutional neural networks (CNN), to recognize and classify ASL gestures from video inputs into text. We will also explore the feasibility of extending this system to include a text-to-speech (TTS) conversion.
+Utilizing state-of-the-art computer vision and machine learning techniques, particularly convolutional neural networks (CNN), this project will recognize and classify ASL gestures from the video into precise text. We will explore the feasibility of a supplementary text-to-speech (TTS) conversion, enhancing the system's utility by providing auditory communication options.
 
 ### Datasets
-The training and validation will utilize the Sign Language MNIST dataset, which includes images derived from video frames of ASL gestures.
+The system's development and validation phases will employ the Sign Language MNIST dataset, which comprises detailed images extracted from video frames of ASL gestures, meticulously labeled for accurate training.
 
 ### Challenges
-Key challenges include the accurate interpretation of ASL gestures and the potential text-to-speech conversion. Environmental variables in video data such as lighting and background can also complicate gesture recognition.
+The project confronts significant challenges, including the intricate interpretation of ASL's nuanced gestures and the environmental variability in video data such as variable lighting and background disturbances. The prospective text-to-speech conversion also presents a complex technological hurdle that we aim to address.
 
 ## Input/Output Data
-- **Input:** Video data uploaded by users.
-- **Output:** Text display and, if feasible, speech output.
-
-## Training Data
-The primary dataset for this project will be the Sign Language MNIST dataset.
+- **Input:** Real-time video data uploaded by users.
+- **Output:** Textual translations displayed on-screen, with an investigational speech output as a potential enhancement.
 
 ## Evaluation Plan
-The model’s performance will be evaluated through accuracy metrics on a test set. User feedback and trial implementations will help ensure practical usability. The optional text-to-speech feature will undergo separate feasibility and effectiveness assessments.
+The system's effectiveness will be rigorously evaluated using precision accuracy metrics against a controlled test set. Additionally, we will engage our target audience in feedback sessions to refine usability and functionality. The optional speech conversion component will undergo a distinct set of evaluations to assess its viability and integration with the primary system.
 
 ## Impact
-This project could significantly enhance communication accessibility, promoting inclusivity in education, healthcare, and public services. It may also serve as an educational tool for learning ASL.
+This pioneering project promises to revolutionize communication access for people with hearing and visual impairments, significantly increasing inclusivity across crucial societal sectors. Beyond its immediate benefits, the system could also serve as a vital educational resource for learning ASL and understanding communication barriers.
 
 ## Tools and Resources
+
 ### Data Sources
-- **Sign Language MNIST dataset**
+- **Primary Dataset:** Sign Language MNIST dataset
 
 ### Software and Tools
-- **Programming Language:** Python
-- **Libraries:** TensorFlow, Keras (for machine learning), potential text-to-speech libraries.
+- **Programming Languages:** Python
+- **Libraries:** TensorFlow, Keras for machine learning development; potential incorporation of text-to-speech libraries if the secondary output is viable.
 
 ### Inspirational Sources
-- Previous research and projects in sign language recognition and assistive technology.
+- Cutting-edge research in sign language recognition and existing assistive technologies have informed our approach, providing a solid foundation for innovative developments.
