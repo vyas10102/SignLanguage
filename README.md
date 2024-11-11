@@ -12,7 +12,7 @@ The primary goal of this project is to develop a sophisticated assistive technol
 
 ## Project Description
 ### Inputs and Outputs
-- **Inputs:** User-uploaded videos via the system interface, capturing real-time ASL gestures.
+- **Inputs:** User-uploaded videos via the system interface.
 - **Outputs:** Primary output will be text displayed on-screen. An optional output, synthesized speech, will be explored based on feasibility and implementation success.
 
 ### Target Audience
